@@ -84,7 +84,7 @@ textarea{
     resize: vertical;
 }
 
-button{
+.c-a{
     border: none;
     padding: 15px;
     background-color:  #3e9684;
@@ -94,7 +94,7 @@ button{
     border-radius: 10px;
 }
 
-button:hover{
+.c-a:hover{
     background-color: #fff;
     color: #3e9684;
     border: 1px solid #3e9684;
@@ -115,8 +115,13 @@ button:hover{
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 860px) {
     .c-wrapper{
         flex-direction: column;
+    }
+
+    .c-a{
+        display: inline;
     }
 }

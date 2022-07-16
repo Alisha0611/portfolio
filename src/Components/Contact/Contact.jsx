@@ -29,7 +29,7 @@ function Contact() {
                 <div className="c-inside-wrapper">
                     <div className="c-info">
                         <p className="info">Mail me at</p>
-                        <a href="alishasrivastava611@gmail.com" className="info-mail">
+                        <a href="mailto: alishasrivastava611@gmail.com" className="info-mail">
                             <p className='c-mail'>alishasrivastava611@gmail.com</p>
                         </a>
                     </div>
@@ -71,7 +71,7 @@ function Contact() {
                     <input type="text" placeholder='Subject' name='user_subject'/>
                     <input type="text" placeholder='Email' name='user_email'/>
                     <textarea  rows="5" cols="20"  placeholder='Message' name='message'></textarea>
-                    <button >Submit</button>
+                    <button className='c-a'>Submit</button>
                 </form>
             </div>
         </div>
