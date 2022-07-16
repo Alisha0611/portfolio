@@ -1,0 +1,67 @@
+.s{
+    height: 100%;
+}
+#Skills{
+    padding-top:60px;
+}
+.s-head{
+    font-size: 35px;
+    text-align: center;
+    margin: 30px;
+}
+
+.s-skill{
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .s-skill{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .s-skill{
+        grid-template-columns:  1fr;
+    }
+}
+
+.s-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.s-skill .s-set{
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.s-skill .s-set:hover{
+    box-shadow: 0px 0px 10px  rgba(62,150,132,1);
+}
+
+.s-heading{
+    padding-block: 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.s-set .s-list{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 28px;
+}
+
+.s-icon{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,48 @@
+.do-wrapper{
+    padding-top: 40px;
+}
+
+.d{
+   min-height: 100%;
+   margin-bottom: 30px;
+   margin-top: 100px;
+}
+
+.d-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.d-container .d-box{
+    
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.d-container .d-box:hover{
+    box-shadow: 0px 0px 10px rgba(62,150,132,1);
+}
+
+.d-head{
+    margin: 30px; 
+    font-size: 35px;
+    text-align: center;
+}
+
+.d-info{
+    margin: 20px 0px;
+}
+
+.icon{
+    color: #3e9684;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}

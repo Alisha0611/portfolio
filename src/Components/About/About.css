@@ -1,0 +1,74 @@
+.a{
+    height: 100%;
+    
+}
+#About{
+    padding-top: 100px;
+}
+.about-heading {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.primary {
+    color: #3e9684;
+}
+
+.about-info {
+    text-align: left;
+    padding-right: 50px ;
+    padding-left: 50px ;
+    padding-bottom: 20px;
+}
+.edu-primary{
+    color: rgb(151, 146, 146);
+}
+
+.about-edu-wrapper {
+    padding-left: 50px;
+
+}
+
+.about-edu {
+    padding-bottom: 20px;
+    color: #3e9684;
+}
+
+.edu{
+    padding-left: 30px;
+}
+
+.edu-i {
+    padding-bottom: 10px;
+}
+
+.vl {
+    border-left: 1px solid #3e9684;
+  }
+
+.circleNew{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3e9684;
+    margin-left: -40px;
+    margin-right: 20px;
+}
+
+.hey-font{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 860px){
+    
+    .a{
+        flex-direction: column;
+        
+    }
+
+    
+}
